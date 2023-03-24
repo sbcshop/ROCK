@@ -32,6 +32,6 @@ draw.text((40, 100), 'SB-Components ', font=font2, fill = "Red")
 lcd.ShowImage(image1,0,0)
 time.sleep(3)
 
-image = Image.open('testimage.jpg')	
+image = Image.open('lcd_logo.jpg')	
 lcd.ShowImage(image,0,0)
 
