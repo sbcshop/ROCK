@@ -33,9 +33,23 @@ try:
     
         Relay1_GPIO.write(1)
         time.sleep(0.5)
-        Relay1_GPIO.write(0)
+        Relay2_GPIO.write(1)
         time.sleep(0.5)
-        print('testtttt')
+        Relay3_GPIO.write(1)
+        time.sleep(0.5)
+        Relay4_GPIO.write(1)
+        time.sleep(0.5)
+        Relay5_GPIO.write(1)
+        time.sleep(0.5)
+        Relay6_GPIO.write(1)
+        time.sleep(0.5)
+        Relay1_GPIO.write(0)
+        Relay2_GPIO.write(0)
+        Relay3_GPIO.write(0)
+        Relay4_GPIO.write(0)
+        Relay5_GPIO.write(0)
+        Relay6_GPIO.write(0)
+        time.sleep(0.5)
 
 
 except KeyboardInterrupt:
@@ -46,8 +60,3 @@ except KeyboardInterrupt:
     Relay4_GPIO.write(0)
     Relay5_GPIO.write(0)
     Relay6_GPIO.write(0)
-    print('heoooo')
-    
-
-    
-
